@@ -3,10 +3,10 @@
 
 
 ### Treballant amb XML en Python
-Python proporciona diverses biblioteques per treballar amb XML. Una de les més senzilles és xml.etree.ElementTree.
+**Python** proporciona diverses biblioteques per treballar amb XML. Una de les més senzilles és *xml.etree.ElementTree.*
 
 ### Lectura d’un fitxer XML
-Per llegir un fitxer XML, utilitzem la funció parse que ens retorna l’element arrel del fitxer XML.
+Per llegir un fitxer **XML**, utilitzem la funció *parse* que ens retorna l’element arrel del fitxer XML.
 
 ### Accés als elements
 Podem accedir als elements fills de l’element arrel i imprimir el seu nom i atributs.
