@@ -17,45 +17,10 @@ El **DOM** és una API *(Interfície de Programació d’Aplicacions)* que perme
 
 <a name="Treballant amb el DOM a Python"></a>
 
-1- xml.dom: Aquest mòdul proporciona la definició de l’API DOM. Pots crear, modificar i accedir a documents XML utilitzant aquesta interfície. A continuació, es mostra un exemple bàsic:
+1. Importar el mòdul xml.dom.minidom:
 
-```
-import xml.dom.minidom
+``` import xml.dom.minidom ```
 
-# Crear un nou document XML
-doc = xml.dom.minidom.Document()
+2.Parsejar un fitxer XML:
 
-# Crear un element arrel
-root = doc.createElement("llibreria")
-doc.appendChild(root)
-
-# Afegir un element fill
-llibre = doc.createElement("llibre")
-root.appendChild(llibre)
-
-# Afegir atributs a l'element
-llibre.setAttribute("categoria", "ficció")
-
-# Crear un node de text
-titol = doc.createElement("títol")
-text_titol = doc.createTextNode("El Catcher in the Rye")
-titol.appendChild(text_titol)
-llibre.appendChild(titol)
-
-# Imprimir el document XML
-print(doc.toprettyxml())
-
-```
-
-2- xml.dom.minidom: Aquesta és una implementació mínima del DOM. És més senzilla i més petita que una implementació completa. Aquí tens un exemple similar al de dalt:
-
-```
-from xml.dom import minidom
-
-doc = minidom.Document()
-root = doc.createElement("llibreria")
-doc.appendChild(root)
-
-# ... Afegir elements i atributs ...
-
-print(doc.toprettyxml())
+``` doc = xml.dom.minidom.parse("fitxer.xml") ```
