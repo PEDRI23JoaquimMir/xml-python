@@ -10,8 +10,8 @@
 El **DOM** és una API *(Interfície de Programació d’Aplicacions)* que permet **accedir i modificar documents XML**. Representa un document XML com una estructura d’arbre, la qual cosa facilita la manipulació dels seus elements. A continuació, presento alguns punts clau sobre el DOM:
 
 - El DOM és útil per a aplicacions que requereixen accés aleatori a parts específiques del document XML.
-- A diferència de SAX (Simple API for XML), que només permet veure una part del document a la vegada, el DOM proporciona accés a tota l’estructura de l’arbre.
-- El DOM és estàndard i es defineix en nivells pel W3C (World Wide Web Consortium).
+- A diferència de SAX *(Simple API for XML)*, que només permet veure una part del document a la vegada, el DOM proporciona accés a tota l’estructura de l’arbre.
+- El DOM és estàndard i es defineix en nivells pel W3C *(World Wide Web Consortium)*.
 
 ![esquema estructural de Dom](Document.jpg)
 
