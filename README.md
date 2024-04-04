@@ -13,7 +13,7 @@ El **DOM** és una API *(Interfície de Programació d’Aplicacions)* que perme
 - A diferència de SAX (Simple API for XML), que només permet veure una part del document a la vegada, el DOM proporciona accés a tota l’estructura de l’arbre.
 - El DOM és estàndard i es defineix en nivells pel W3C (World Wide Web Consortium).
 
-![esquema estructural de Dom](
+![esquema estructural de Dom](Document.jpg)
 <img src="Document.png" alt="Esquema estructural de Dom" width="200">
 
 <a name="Treballant amb el DOM a Python"></a>
