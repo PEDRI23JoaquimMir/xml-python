@@ -2,8 +2,8 @@
 ## UF2A1 - Documentació amb Markdown - control
 
 ## Índex
-1- Què és el Dom?
-2- Treballant amb el DOM a Python
+- Què és el Dom?
+- Treballant amb el DOM a Python
 
 
 <a name="Què és el Dom?"></a>
