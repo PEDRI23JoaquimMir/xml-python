@@ -80,5 +80,13 @@ for staff in staff_elements:
     staff_name = name_element.firstChild.data
     print(f"Staff ID: {staff_id}, Name: {staff_name}")
 ```
+Referències:
+
+https://stackoverflow.com/questions/1596829/xml-parsing-with-python-and-minidom
+
+https://www.geeksforgeeks.org/parsing-xml-with-dom-apis-in-python/
+
+https://docs.python.org/3/library/xml.dom.minidom.html
+
 
 Fins aqui, tot aixó és una introducció bàsica al mon de DOM en Python. 
