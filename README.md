@@ -14,7 +14,6 @@ El **DOM** és una API *(Interfície de Programació d’Aplicacions)* que perme
 - El DOM és estàndard i es defineix en nivells pel W3C (World Wide Web Consortium).
 
 ![esquema estructural de Dom](Document.jpg)
-<img src="Document.jpg" alt="Esquema estructural de Dom" width="200">
 
 <a name="Treballant amb el DOM a Python"></a>
 
